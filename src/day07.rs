@@ -88,6 +88,18 @@ fn part1() {
 
     let res: u32 = sizes.values().filter(|&size| *size <= 100000).sum();
     println!("Day 07 Solution Part 1: {}", res);
+
+    let total = 70000000;
+    let required = 30000000;
+
+    let current = total - sizes.get(&0).unwrap();
+
+    let res_2 = sizes.values().filter(|size| current + *size >= required).min().unwrap();
+
+
+    println!("Day 07 Solution Part 2: {}", res_2);
+
+
 }
 
 fn parse_recursive(

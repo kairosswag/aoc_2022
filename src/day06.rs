@@ -25,7 +25,7 @@ fn part2() {
         }
     };
 
-    println!("Day 06 Solution Part 1: {}", res);
+    println!("Day 06 Solution Part 2: {}", res);
 }
 
 fn part1() {

@@ -99,7 +99,7 @@ fn parse_stack(line: &str, res: &mut [Vec<char>]) {
     }
 }
 
-fn print_stack(stack: &[Vec<char>]) {
+fn _print_stack(stack: &[Vec<char>]) {
     for i in 1..stack.len() {
         println!("{}: {}", i, stack[i].iter().collect::<String>());
     }

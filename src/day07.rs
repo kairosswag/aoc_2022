@@ -34,10 +34,6 @@ enum Result {
 }
 
 pub fn run() {
-    part1();
-}
-
-fn part1() {
     let f = File::open("input/day07").expect("could not open file");
     let reader = BufReader::new(f);
 

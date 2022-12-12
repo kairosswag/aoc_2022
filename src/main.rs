@@ -10,10 +10,12 @@ mod day07;
 mod day08;
 mod day09;
 mod day10;
+mod day11;
+mod day12;
 
 fn main() {
     let now = Instant::now();
-    day10::run();
+    day12::run();
     println!("Took {} µs", now.elapsed().as_micros());
 }
 
